@@ -30,7 +30,7 @@ def read_file(filename):
 def update_keys():
     """Обновление ключей"""
     try:
-        # скачивание страницы
+        # Скачивание страницы
         page = requests.get(URL, headers=HEADERS).text
         with open(FILENAME, 'w', encoding='utf-8') as output_file:
             output_file.write(page)
@@ -41,7 +41,7 @@ def update_keys():
         with open('new_keys.txt', 'w') as sort_list:  # запись в файл и разбиение по строкам
             for keys in list_keys[10:]:  # убираем логины из захвата
                 sort_list.write("%s\n" % keys)
-        # удаляем пустые строки
+        # Удаляем пустые строки
         with open('new_keys.txt', 'r') as original, open('clean_keys.txt', 'w') as clean:
             for line in original:
                 if line.strip():
@@ -87,8 +87,8 @@ def autoupdate_key():
 def send_keys():
     """Отправка ключей"""
     try:
-        file = open('new_keys.txt', 'r')  # открыть файл в режиме чтения
-        clipboard = file.read()  # скопировать текст в переменную
+        file = open('new_keys.txt', 'r')  # Открыть файл в режиме чтения
+        clipboard = file.read()  # Скопировать текст в переменную
         file.close()
         print(TIME_NOW + 'Keys sent')
         return clipboard

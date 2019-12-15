@@ -1,12 +1,12 @@
 # nod32keys_bot
-Бот для парсинга ключей Eset NOD32. Написан на Python 3.7
+Бот для парсинга ключей Eset NOD32. Написан на Python 3.8.
 
 ## Описание файлов
 ```
-│── config-sample # токен, прокси
-│── eset_bot.py # основные функции
-│── requirements.txt # зависимости
-│── run.py # запуск бота
+│── config-sample  # Токен, прокси
+│── eset_bot.py  # Основные функции
+│── requirements.txt  # Зависимости
+│── run.py  # Запуск бота
 ```
 
 ### Установка
