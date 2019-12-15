@@ -1,0 +1,9 @@
+venv
+.venv
+.idea
+*.cfg
+*.pyc
+__pycache__
+config.py
+new_keys.txt
+*.html
