@@ -1,17 +1,19 @@
 # nod32keys_bot
-Бот для парсинга ключей Eset NOD32. Написан на Python 3.8.
+Bot for parsing keys Eset NOD32. Written in Python 3.8.
 
-## Описание файлов
+## File Description
 ```
-│── config-sample  # Токен, прокси
-│── eset_bot.py  # Основные функции
-│── requirements.txt  # Зависимости
-│── run.py  # Запуск бота
+│── config-sample  # Token, proxy
+│── cron.py # Cron task for automatic update keys
+│── requirements.txt  # Dependencies
+│── run.py  # Bot launch
+│── utils.py  # Main functions
 ```
 
-### Установка
-* Устанавливаем зависимости:
+### Install
+* Install the dependencies:
 ```
 pip install -r requirements.txt
 ```
-* Делаем из config-sample новый config.py под себя.
+* Make new **config.py** for ourselves from **config-sample**.
+* Add a cron task to the server, put the execution every 8 hours.
