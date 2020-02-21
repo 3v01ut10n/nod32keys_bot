@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 FILENAME = 'nod32keys.html'
 URL = 'https://8fornod.net/keys-nod-32-4/'
 HEADERS = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36'
 }
 ABOUT_KEYS_MESSAGE = '''
 1. *[EAV]* ESET NOD32 Antivirus 9-12: *all keys.*
