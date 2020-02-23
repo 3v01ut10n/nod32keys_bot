@@ -57,7 +57,7 @@ def format_key():
         with open("new_keys.txt") as f:
             descr = f.readlines()
 
-        today = 'New keys for' + datetime.datetime.today().strftime('%d.%m.%Y %H.%M') + ':\n\n'
+        today = 'New keys for ' + datetime.datetime.today().strftime('%d.%m.%Y %H.%M') + ':\n\n'
         descr.insert(0, today)
         descr.insert(1, '*> [ESS] Smart Security 9-12*\n')
         descr.insert(8, '\n*> [EAV] NOD32 Antivirus 9-12*\n')
