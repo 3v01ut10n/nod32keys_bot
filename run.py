@@ -1,5 +1,4 @@
 import telebot
-from telebot import apihelper
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
@@ -7,7 +6,6 @@ import utils
 
 
 bot = telebot.TeleBot(config.token)
-apihelper.proxy = config.proxy
 
 
 def main_menu_keyboard():

@@ -1,8 +1,2 @@
 # Bot token
 token = '*************************************'
-
-# Proxy, login:password
-proxy = {
-    'http': 'https://*****:********@proxy.domain.com:443',
-    'https': 'https://*****:********@proxy.domain.com:443'
-}
